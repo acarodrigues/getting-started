@@ -4,21 +4,21 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
-## Running the application in dev mode
+## Rodando a aplicação em modo desenvolvedor
 
-You can run your application in dev mode that enables live coding using:
+Para rodar a aplicação use:
 ```shell script
 ./mvnw compile quarkus:dev
 ```
 
-## Packaging and running the application
+## Empacotando e rodando a aplicação
 
-The application can be packaged using:
+Para empacotar a aplicação use:
 ```shell script
 ./mvnw package
 ```
-It produces the `getting-started-1.0.0-SNAPSHOT-runner.jar` file in the `/target` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/lib` directory.
+Será criado um arquivo `getting-started-1.0.0-SNAPSHOT-runner.jar` no diretório `/target`.
+Verifique se não existe um _über-jar_ cpiado como dependência no diretório `target/lib`.
 
 If you want to build an _über-jar_, execute the following command:
 ```shell script

@@ -19,7 +19,7 @@ import io.netty.util.internal.StringUtil;
 @Path("/book")
 public class BookResource {
 	
-	//O resorce será uma espécie de interface com o Banco de dados em uma API Rest
+	//O resource será basicamente como um proxy não deve conter nele lógica de negócio
 	
 	private static List<String> books = new ArrayList<>();
 	
